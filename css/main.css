@@ -1,4 +1,40 @@
-#d_logo {
-  border: 1px solid black;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#d_logo img {
   text-align: center;
+  width: auto;
+  height: 130px;
+}
+
+#search img {
+  max-width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.menu li {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  color: black;
+  margin-top: 40px;
+  margin-left: 190px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+}
+
+.d_menu li a {
+  text-decoration: none;
 }
